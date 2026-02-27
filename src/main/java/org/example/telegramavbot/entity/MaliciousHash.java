@@ -53,7 +53,8 @@ public class MaliciousHash {
      * Tahdid turi
      */
     @Column(length = 32)
-    private String threatType;
+    @Enumerated(EnumType.STRING)
+    private ThreatType threatType;
 
     /**
      * Qayerdan olingan?

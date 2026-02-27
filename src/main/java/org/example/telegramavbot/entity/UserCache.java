@@ -42,9 +42,11 @@ public class UserCache {
     @Column(nullable = false)
     private LocalDateTime lastSeen;        // Oxirgi marta faol bo'lgan vaqti
 
+    @Builder.Default
     private Integer violationCount = 0;    // Necha marta qoidani buzgan
 
     @Column(nullable = false)
+    @Builder.Default
     private Boolean isBanned = false;      // Hozir ban holatidami?
 
     private LocalDateTime banUntil;        // Qachongacha ban (NULL = permanent emas)
