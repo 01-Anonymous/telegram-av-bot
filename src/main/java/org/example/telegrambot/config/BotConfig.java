@@ -1,6 +1,6 @@
-package org.example.telegramavbot.config;
+package org.example.telegrambot.config;
 import lombok.extern.slf4j.Slf4j;
-import org.example.telegramavbot.BotHandler;
+import org.example.telegrambot.BotHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.telegram.telegrambots.meta.TelegramBotsApi;

@@ -1,4 +1,4 @@
-package org.example.telegramavbot.entity;
+package org.example.telegrambot.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

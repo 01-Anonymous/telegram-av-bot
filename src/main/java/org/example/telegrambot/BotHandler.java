@@ -1,4 +1,4 @@
-package org.example.telegramavbot;
+package org.example.telegrambot;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

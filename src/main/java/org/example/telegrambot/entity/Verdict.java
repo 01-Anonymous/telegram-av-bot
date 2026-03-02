@@ -1,4 +1,4 @@
-package org.example.telegramavbot.entity;
+package org.example.telegrambot.entity;
 
 public enum Verdict {
     CLEAN,      // Fayl xavfsiz deb topildi
